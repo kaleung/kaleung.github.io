@@ -676,23 +676,23 @@
 				<div class="col-lg-8">
 					
 					<!-- Form -->
-					<form class="section_reservation__form" id="reservation__form">
+					<form class="section_reservation__form" id="reservation__form" data-parsley-validate>
 						<div class="row">
 							<div class="col-md-6">
 
 								<div class="form-group">
 									<label class="sr-only" for="reservation__form__name">Full name</label>
-									<input type="text" class="form-control" id="reservation__form__name" name="participant_name" placeholder="你的名字">
+									<input type="text" class="form-control" id="reservation__form__name" name="participant_name" placeholder="你的名字" required="">
 									<div class="invalid-feedback"></div>
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="reservation__form__phone">Phone number</label>
-									<input type="tel" class="form-control" id="reservation__form__phone" name="participant_phone" placeholder="你的電話">
+									<input type="tel" class="form-control" id="reservation__form__phone" name="participant_phone" placeholder="你的電話" required="" data-parsley-type='digits'>
 									<div class="invalid-feedback"></div>
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="reservation__form__email">E-mail address</label>
-									<input type="email" class="form-control" id="reservation__form__email" name="participant_email" placeholder="你的電郵">
+									<input type="email" class="form-control" id="reservation__form__email" name="participant_email" placeholder="你的電郵" required="">
 									<div class="invalid-feedback"></div>
 								</div>
 
@@ -733,7 +733,7 @@
 							<div class="col">
 
 								<div class="text-center">
-									<button type="submit" class="btn btn-primary">
+									<button id="confirm-btn" type="submit" class="btn btn-primary">
 										確認邀請
 									</button>
 								</div>
@@ -1682,6 +1682,8 @@
 	<script src="assets/plugins/flickity/fullscreen.min.js"></script>
 	<script src="assets/plugins/lightbox/js/lightbox.min.js"></script>
 	<script src="assets/plugins/countdown/jquery.countdown.min.js"></script>
+	<script src="assets/plugins/parsley/parsley.min.js"></script>
+	<script src="assets/plugins/parsley/zh_tw.js"></script>
 	<script src="assets/plugins/alerts/alerts.js"></script>
 
 	<!-- JS Custom -->
