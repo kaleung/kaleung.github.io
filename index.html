@@ -157,7 +157,7 @@
 						
 						<!-- Address -->
 						<div class="section_welcome__footer__address text-center text-lg-right">
-							<i class="fas fa-map-marker-alt"></i> <a class="text-white" href="geo:26.469314,127.968151" >沖繩縣國頭郡宜野座村字惣慶1182</a>
+							<a class="text-white" href="https://whos.wedding/en" >ENG</a> | <a class="text-white" href="https://whos.wedding" >中文</a>
 						</div>
 
 					</div>
@@ -491,7 +491,7 @@
 
 								<!-- Heading -->
 								<h2 class="section__heading text-white">
-									沖繩 (地點待定)
+									pizzeria da ENZO
 								</h2>
 
 								<!-- Description -->
@@ -576,8 +576,12 @@
 			<iframe width='100%' height='100%' id='mapcanvas' src='https://maps.google.com/maps?q=Arluis%20Wedding%20Church,%20Okinawa%20904-1304&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'></iframe>
 		</div>
 
+		<div id="party_map" class="section_map__map pointer-events-none toggle-map-content">
+			<iframe width='100%' height='100%' id='mapcanvas' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.4780645329524!2d127.76651331435492!3d26.440314786632957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e5107f9f61c7cd%3A0xe1c2737e67ab1461!2spizzeria%20da%20ENZO!5e0!3m2!1sen!2sus!4v1569045883897!5m2!1sen!2sus' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'></iframe>
+		</div>
+
 		<div id="bus_map" class="section_map__map pointer-events-none toggle-map-content">
-			<iframe width='100%' height='100%' id='mapcanvas' src='https://maps.google.com/maps?q=Makishi%20Station,%20Okinawa&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=&amp;output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'></iframe>
+			<iframe width='100%' height='100%' id='mapcanvas' src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3579.483839080195!2d127.67114000000001!3d26.213464!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x512e17f5a24cbb08!2sNest%20Hotel%20Naha!5e0!3m2!1sen!2sus!4v1569045523384!5m2!1sen!2sus' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'></iframe>
 		</div>
 
 	    <div class="container section_map__map__content__wrapper pointer-events-none">
@@ -591,10 +595,13 @@
 								<nav class="section_menu__nav">
 									<ul>
 										<li class="active">
-											<a id="btn_chuch_map" href="#addr_item" data-filter=".chunch">教堂地址</a>
+											<a id="btn_chuch_map" href="#addr_item" data-filter=".chunch">教堂位置</a>
 										</li>
 										<li>
-											<a id="btn_bus_map" href="#addr_item" data-filter=".bus">接載地點</a>
+											<a id="btn_party_map" href="#addr_item" data-filter=".party">派對位置</a>
+										</li>
+										<li>
+											<a id="btn_bus_map" href="#addr_item" data-filter=".bus">接載位置</a>
 										</li>
 									</ul>
 								</nav>
@@ -615,7 +622,7 @@
 										<p><i class="fas fa-map-marker-alt"></i> <a href="geo:26.469314,127.968151">26.469314, 127.968151</a></p>
 
 										<h6 class="section_map__map__heading">Map Code</h6>
-										<p><i class="fas fa-location-arrow"></i> <a href="geo:26.469314,127.968151">26.469314, 127.968151</a></p>
+										<p><i class="fas fa-location-arrow"></i> <a href="geo:26.469314,127.968151">206 176 700*63</a></p>
 			                        </div>
 			                        <div class="col-12 text-center">
 			                    		<a class="btn btn-primary section_map__map__btn" id="btn-show-map">顯示地圖</a>
@@ -623,18 +630,39 @@
 			                    </div>
 			                    
 							</div>
+
+							<div class="col section_menu__grid__item party">
+								<div class="row">
+			                        <div class="col-md-6">
+			                            <h5 class="section_map__map__heading">pizzeria da ENZO</h5>
+										<p>沖繩縣國頭郡恩納村字真榮田塩焼原715-3</p>
+			                        </div>
+			                        <div class="col-md-6">
+			                            <h6 class="section_map__map__heading">GPS</h6>
+										<p><i class="fas fa-map-marker-alt"></i> <a href="geo:26.440334,127.768606">26.440334, 127.768606</a></p>
+
+										<h6 class="section_map__map__heading">Map Code</h6>
+										<p><i class="fas fa-location-arrow"></i> <a href="geo:26.440334,127.768606">206 062 344*55</a></p>
+			                        </div>
+			                        <div class="col-12 text-center">
+			                    		<a class="btn btn-primary section_map__map__btn" id="btn-show-map">Show Map</a>
+			                    	</div>
+			                    </div>
+			                    
+							</div>
+
 							<div class="col section_menu__grid__item bus">
 								<div class="row">
 			                        <div class="col-md-6">
-			                            <h5 class="section_map__map__heading">那霸市</h5>
-										<p>詳細地點待定</p>
+			                            <h5 class="section_map__map__heading">Nest Hotel Naha</h5>
+										<p>沖繩縣那霸市西1丁目6−1</p>
 			                        </div>
 			                        <div class="col-md-6">
 			                            <h6 class="section_map__map__heading">GPS</h5>
-										<p><i class="fas fa-map-marker-alt"></i> 待定</p>
+										<p><i class="fas fa-map-marker-alt"></i> <a href="geo:26.212441,127.672353">26.212441, 127.672353</a></p>
 
 										<h6 class="section_map__map__heading">Map Code</h5>
-										<p><i class="fas fa-location-arrow"></i> 待定</p>
+										<p><i class="fas fa-location-arrow"></i> <a href="geo:26.212441,127.672353">33 155 057*82</a></p>
 			                        </div>
 			                        <div class="col-12 text-center">
 			                    		<a class="btn btn-primary section_map__map__btn" id="btn-show-bus-map">顯示地圖</a>
@@ -667,7 +695,7 @@
 
 					<!-- Subheading -->
 					<p class="section__subheading text-center">
-						如您能在9月15日或之前回覆，我們便可盡早確定細節安排，衷心感謝
+						如您能在9月30日或之前回覆，我們便可盡早確定細節安排，衷心感謝
 					</p>
 	
 				</div>
@@ -723,7 +751,7 @@
 								<div class="form-group">
 									<label class="sr-only" for="reservation__form__dinner">Dinner</label>
 									<select class="form-control" id="reservation__form__dinner" name="participant_dinner">
-										<option value="1" selected="">出席婚後派對</option>
+										<option value="1" selected="">出席婚禮派對</option>
 										<option value="2">不出席派對</option>
 									</select>
 									<div class="invalid-feedback"></div>
@@ -1150,7 +1178,7 @@
 							<div class="col-9">
 								<h4>Almont Hotel Naha-Kenchomae (那霸市)</h4>
 								<div class="row">
-									<div class="col-sm-6 col-md-12 col-lg-6 col-xl-7"><i class="fas fa-map-marker-alt"></i> <a href="https://goo.gl/maps/wnAxgdKSo2HMEMTy5" target="_blank">那覇市久茂地1-3-5</a></div>
+									<div class="col-sm-6 col-md-12 col-lg-6 col-xl-7"><i class="fas fa-map-marker-alt"></i> <a href="https://goo.gl/maps/wnAxgdKSo2HMEMTy5" target="_blank">那霸市久茂地1-3-5</a></div>
 									<div class="col-sm-6 col-md-12 col-lg-6 col-xl-5"><i class="fas fa-phone"></i> +81-98-866-3811</div>
 									<div class="col-6 col-xl-7"><i class="fas fa-search-dollar"> </i> <a href="https://www.trivago.hk/naha-91663/hotel/almont---naha-kenchomae-4536810" target="_blank">格價網站</a></div>
 									<div class="col-6 col-xl-5"><i class="fas fa-link"></i> <a href="https://www.almont.jp/naha/" target="_blank">官方網站</a></div>
@@ -1170,7 +1198,7 @@
 							<div class="col-9">
 								<h4>Hotel Gracery Naha (那霸市)</h4>
 								<div class="row">
-									<div class="col-sm-6 col-md-12 col-lg-6 col-xl-7"><i class="fas fa-map-marker-alt"></i> <a href="https://goo.gl/maps/HRkgqUAZuFtje9Ad8" target="_blank">那覇市松尾1-3-6</a></div>
+									<div class="col-sm-6 col-md-12 col-lg-6 col-xl-7"><i class="fas fa-map-marker-alt"></i> <a href="https://goo.gl/maps/HRkgqUAZuFtje9Ad8" target="_blank">那霸市松尾1-3-6</a></div>
 									<div class="col-sm-6 col-md-12 col-lg-6 col-xl-5"><i class="fas fa-phone"></i> +81-98-867-6111</div>
 									<div class="col-6 col-xl-7"><i class="fas fa-search-dollar"> </i> <a href="https://www.trivago.hk/naha-91663/hotel/gracery-naha-4536970" target="_blank">格價網站</a></div>
 									<div class="col-6 col-xl-5"><i class="fas fa-link"></i> <a href="https://gracery.com/naha/" target="_blank">官方網站</a></div>
@@ -1190,7 +1218,7 @@
 							<div class="col-9">
 								<h4>JR Kyushu Hotel Blossom Naha (那霸市)</h4>
 								<div class="row">
-									<div class="col-sm-6 col-md-12 col-lg-6 col-xl-7"><i class="fas fa-map-marker-alt"></i> <a href="https://goo.gl/maps/VttcL51M3Mtpn7DL6" target="_blank">那覇市牧志2-16-1</a></div>
+									<div class="col-sm-6 col-md-12 col-lg-6 col-xl-7"><i class="fas fa-map-marker-alt"></i> <a href="https://goo.gl/maps/VttcL51M3Mtpn7DL6" target="_blank">那霸市牧志2-16-1</a></div>
 									<div class="col-sm-6 col-md-12 col-lg-6 col-xl-5"><i class="fas fa-phone"></i> +81-98-861-8700</div>
 									<div class="col-6 col-xl-7"><i class="fas fa-search-dollar"> </i> <a href="https://www.trivago.hk/naha-91663/hotel/jr-kyushu-hotel-blossom-naha-7074748" target="_blank">格價網站</a></div>
 									<div class="col-6 col-xl-5"><i class="fas fa-link"></i> <a href="https://www.jrk-hotels.co.jp/Naha/" target="_blank">官方網站</a></div>
